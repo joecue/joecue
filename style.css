@@ -1,0 +1,48 @@
+/*!
+ Theme Name: joecue
+ Theme URI:    http://www.joequerin.com 
+ Description:  Joes Portfolio Theme 
+ Author: Joe Querin 
+ Author URI: http://www.joequerin.com 
+ Version:1.0.0 
+ License: GNU General Public License v2 or later 
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html 
+ Text Domain:  joecue */ 
+ h1,h2,h3{font-family:"Architects Daughter"}h1{font-size:1.6em;margin-bottom:3px}
+h2{font-size:1.3em;margin-bottom:3px}h3{font-size:1.1em;margin-bottom:3px}body,p{font-family:"Exo 2";font-size:1.1em;color:#383838}
+h2.homepage{color:#fff;font-size:1.7em}.article h2,.featured-article h2{font-size:1.3em}
+.widget h2{color:#fff}body{background-color:#1b75bb;background-image:url("/wp-content/themes/joecue/images/bg-grid.png")}
+div.home-header-panel{margin-top:15px}div#jq-hero-panel{margin:60px 0 0 0}span.home-title-intro{font-family:"Architects Daughter";font-size:1.8em;float:right;color:#fff;margin:15px 5px 0 0}
+h1.site-title{width:575px;height:102px;background:url("/wp-content/themes/joecue/images/site-title.png");text-indent:-9999px;margin:2px 0 0 10px}
+p.site-title{font-family:'Luckiest Guy';font-size:2.6em;letter-spacing:2px;color:#fff;margin:2px 0 0 10px}
+p.site-description{font-family:"Architects Daughter";font-size:1.5em;color:#fff;text-align:center}
+p.subpage{font-size:1.2em;margin:20px 0 0 0}.top-bar{background:transparent;padding:0}
+.top-bar,.top-bar ul{background:transparent}ul#primary-menu{float:right}div.top-menu-wrapper{border-bottom:2px #fff dashed}
+div.top-menu-inner-wrapper{display:inline-block;border-bottom:2px rgba(255,255,255,0.4) solid;margin:0 0 -4px 0}
+.menu>li>a{font-family:"Architects Daughter";font-size:1.6em;color:#fff}.menu-icon{margin:10px}
+.featured-article{background-color:#fff;border-radius:25px;padding:10px}.article{background-color:#fff;border-radius:25px;padding:10px;min-height:370px}
+a.button{padding:10px 8px;background-color:#3f9ce3;color:#fff;border-radius:10px}
+img.size-homepage_post_thumbnail{border-top-left-radius:25px;border-top-right-radius:25px;width:100%}
+div[class*='stack']{float:left;position:relative;margin:10px}div[class*='stack'],div[class*='stack']:before,div[class*='stack']:after{border:6px solid #fff;height:250px;width:250px;box-shadow:2px 2px 5px rgba(0,0,0,0.3)}
+div[class*='stack']:before,div[class*='stack']:after{background:#768590;content:"";position:absolute;z-index:-1}
+div[class*='stack']:before{background:#eff4de}.stacktwo:before{top:0;left:-10px;transform:rotate(-5deg)}
+.stacktwo:after{top:5px;left:0;transform:rotate(4deg)}.snapshot{border:6px solid #fff;box-shadow:2px 2px 5px rgba(0,0,0,0.3)}
+img.rotate_right{transform:rotate(2deg)}img.rotate_left{transform:rotate(-2deg)}.content-edge{background-image:url("/wp-content/themes/joecue/images/content-edge.png");margin:20px 0 0 0}
+.content-area{background-color:#fff;padding:10px 0 0 0;position:relative}.content-homepage{background:0}
+img.alignright{float:right;margin:0 0 1em 1em}img.alignleft{float:left;margin:0 1em 1em 0}
+img.aligncenter{display:block;margin-left:auto;margin-right:auto}.alignright{float:right}
+.alignleft{float:left}.aligncenter{display:block;margin-left:auto;margin-right:auto}
+.corner-lines{margin:15px 50px}.home-sidebar>.widget>.textwidget ul{margin:0 0 0 3px;padding:0}
+.home-sidebar>.widget>.textwidget,.home-sidebar>.widget>.textwidget ul li{font-family:"Architects Daughter";font-size:1.1em;color:#fff;white-space:nowrap;list-style-type:none;margin:0 0 4px 0}
+.home-sidebar>.widget>.textwidget ul li a{color:#fff;padding-bottom:2px;text-decoration:none;border-bottom:2px #fff dashed}
+.home-sidebar{background-image:url("/wp-content/themes/joecue/images/light-bulb.png");background-repeat:no-repeat;background-position:center;min-height:280px}
+.footer-edge{background-image:url("/wp-content/themes/joecue/images/content-edge.png");margin:35px 0 -1px 0}
+.footer-wrap{width:100%;position:relative;bottom:0;left:0;right:0}footer{background:#fff;padding:20px 5px 10px 5px}
+.site-info{font-size:.875em}.footer-copyright{font-family:"Architects Daughter";font-size:1.1em}
+@media screen and (max-width:39.9375em){div.top-bar-title{background-color:#404040}
+ul.menu{background-color:#404040;display:block;width:100%}ul.menu li{width:100%;margin:5px 0;display:inline-block;border-top:1px solid #a0a0a0}
+span.home-title-intro{font-family:"Architects Daughter";font-size:1.8em;color:#fff;float:none;margin:15px 5px 0 0}
+h1.site-title{width:320px;height:56px;background:url("/wp-content/themes/joecue/images/site-title.png");text-indent:-9999px;background-size:cover;margin:2px 0 0 10px}
+.featured-article{margin:10px}.articles-list{padding:10px}.article{width:95%;margin:5px 0}
+.snapshot{width:200px}}@media screen and (min-width:40em){.articles-list{padding:0}
+.article{margin:5px;max-width:45%}}
