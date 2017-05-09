@@ -174,30 +174,6 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
-function jq_add_classes_to_img($html, $id) {
-
-    //fetching attachment by post $id
-    $attachment = get_post($id); 
-    $mime_type = $attachment->post_mime_type;
-
-    //get an valid array of images types   
-    $image_exts = array( 'image/jpg', 'image/jpeg', 'image/jpe', 'image/gif', 'image/png' );
-
-    //checking the above mime-type
-    if (in_array($mime_type, $image_exts)) { 
-
-        // the image link would be great
-        $src = wp_get_attachment_url( $id );
-					
-        // enter you custom output here
-        $html = '<a href="' . $src .  '" class=""><div class="stacktwo"><img src="'. $src .'" /></div></a>';
-        return $html; // return new $html    
-    }
-        return $html;
-}
-
-add_filter('media_send_to_editor', 'jq_add_classes_to_img', 20, 2);
-
 // Change excerpt length
 function jq_custom_excerpt_length( $length ){
 	return 30;
