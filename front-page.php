@@ -37,7 +37,7 @@ get_header(); ?>
 					echo '<div class="row small-up-1 medium-up-2 articles-list">';
 					while ( $the_query->have_posts() ){
 						$the_query->the_post();
-						echo '<a href="' . the_permalink() . '" title="Link to' . get_the_title() . '>';
+						echo '<a href="' . get_permalink() . '" title="Link to' . get_the_title() . '>';
 						echo '	<div class="column column-block article">';
 						if( the_post_thumbnail('homepage_post_thumbnail') != '' ) : 
 							echo the_post_thumbnail('homepage_post_thumbnail');
