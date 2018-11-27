@@ -51,14 +51,13 @@ get_header(); ?>
 					}
 					echo '</div>';
 					echo '</div>';
-					echo '<div class="small-12 hide-for-medium columns">&nbsp;</div>';
-					echo '  <div class="medium-3 columns home-sidebar">';
-							dynamic_sidebar( 'home-sidebar' );
-					echo '  </div>';
-					echo '</div>';
 					wp_reset_postdata();
 				}
-			
+				echo '<div class="small-12 hide-for-medium columns">&nbsp;</div>';
+				echo '  <div class="medium-3 columns home-sidebar">';
+						dynamic_sidebar( 'home-sidebar' );
+				echo '  </div>';
+				echo '</div>';			
 			?>
 		
 
