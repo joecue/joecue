@@ -46,7 +46,7 @@ get_header(); ?>
 						echo '   <h2>' . get_the_title() . '</h2>';
 						echo '<p>' . get_the_excerpt() . '</p>';
 						echo '   </div>';						
-						echo '  <a/>';
+						echo '  </a>';
 						echo ' </div>';
 					}
 					echo '</div>';
@@ -65,8 +65,7 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 	<div class="show-for-medium corner-lines">
-				<img src="/wp-content/themes/joecue/images/cross-lines-corner.png" border=0/>
-
+		<img src="/wp-content/themes/joecue/images/cross-lines-corner.png" border="0"/>
 	</div>
 
 <?php
