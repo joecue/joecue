@@ -39,7 +39,8 @@ img.aligncenter{display:block;margin-left:auto;margin-right:auto}.alignright{flo
 .footer-edge{background-image:url("/wp-content/themes/joecue/images/content-edge.png");margin:35px 0 -1px 0}
 .footer-wrap{width:100%;position:relative;bottom:0;left:0;right:0}footer{background:#fff;padding:20px 5px 10px 5px}
 .site-info{font-size:.875em}.footer-copyright{font-family:"Architects Daughter";font-size:1.1em}
-.whitebg > h2.widget-title {color:#1B75BB;}
+.subpage-sidebar .widget ul li {font-family: "Architects Daughter";font-size: 1.1em;color: #1b75bb;white-space: nowrap;list-style-type: none;margin: 0 0 2px 0}
+.subpage-sidebar h2.widget-title {color: #1b75bb}.entry-meta {margin: 15px 0 20px 0;border-bottom: 1px #999 dashed;font-style: italic;}
 @media screen and (max-width:39.9375em){div.top-bar-title{background-color:#404040}
 ul.menu{background-color:#404040;display:block;width:100%}ul.menu li{width:100%;margin:5px 0;display:inline-block;border-top:1px solid #a0a0a0}
 span.home-title-intro{font-family:"Architects Daughter";font-size:1.8em;color:#fff;float:none;margin:15px 5px 0 0}

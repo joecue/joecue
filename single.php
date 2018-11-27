@@ -28,7 +28,7 @@ get_header(); ?>
 		endwhile; // End of the loop.
 		?>
 				</div>
-				<div class="small-12 medium-3 columns whitebg">
+				<div class="small-12 medium-3 columns subpage-sidebar">
 				<?php get_sidebar(); ?>
 				</div>
 			</div>
